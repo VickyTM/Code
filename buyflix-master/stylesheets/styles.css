@@ -1,0 +1,14 @@
+/* Your code goes here */
+
+body {
+	/*margin: 25px;*/
+	/*Give the whole page a defined width.*/
+	width: 960px; /*nicely defined and equally divisible*/
+	margin: 20px auto; /*let the browser figure out the best margin*/
+}
+
+span { 
+        border: solid 1px rgb(170,170,170);
+        font-size: 18px; 
+        padding: 4px;
+      }

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- HTML tag has attributes - this tells you it's in english -->
+  <head>
+    <meta charset="utf-8">
+    <title>Buyflix</title>
+
+
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+
+    <style>
+    
+    .navbar-inverse {background-color: rgb(28,17,123);}
+    .navbar-inverse .navbar-brand { color: #FFFFFF;}
+    .navbar-inverse .navbar-nav > li > a {color: #FFFFFF;}
+    .stars {font-size: 18px;}
+    .review-title {font-weight: bold;}
+
+    </style>
+
+  </head>
+  <body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">BUYFLIX</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-film"></i> Genre <i class="fa fa-caret-square-o-down"></i></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Adventure</a></li>
+            <li><a href="#">Science Fiction</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Chick Flix</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Stuff Your Parents Watch</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>-->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+    <h1>
+      Guardians of the Galaxy
+      <span>PG-13</span>
+    <i class="fa fa-star stars"></i> <i class="fa fa-star stars"></i> <i class="fa fa-star stars"> </i> <i class="fa fa-star-half-o stars"></i> <i class="fa fa-star-o stars"></i>  
+    </h1>
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-2">
+        <p><img src="images/poster.jpg"></p>
+        <p><a href="#">$14.99 Buy in HD</a></p>
+        <p><strong>Genre:</strong> Action</p>
+        <p><strong>Released:</strong> 2014</p>
+    </div>
+
+    <div class="col-md-7">  
+      <h2>Summary</h2>
+      <p>
+        From Marvel, the studio that brought you the global blockbuster franchises of Iron Man, Thor, Captain America and The Avengers, comes a new team—the Guardians of the Galaxy. An action-packed, epic space adventure, Marvel’s "Guardians of the Galaxy" expands the Marvel Cinematic Universe into the cosmos, where brash adventurer Peter Quill finds himself the object of an unrelenting bounty hunt after stealing a mysterious orb coveted by Ronan, a powerful villain with ambitions that threaten the entire universe. To evade the ever-persistent Ronan, Quill is forced into an uneasy truce with a quartet of disparate misfits—Rocket, a gun-toting raccoon, Groot, a tree-like humanoid, the deadly and enigmatic Gamora and the revenge-driven Drax the Destroyer. But when Quill discovers the true power of the orb and the menace it poses to the cosmos, he must do his best to rally his ragtag rivals for a last, desperate stand—with the galaxy’s fate in the balance.
+      </p>
+    </div>
+
+    <div class="col-md-3">
+      <h2>Cast</h2>
+      <ul class="list-unstyled">
+        <li><a href="#">Chris Pratt</a> as Peter Quill</li>
+        <li><a href="#">Zoe Saldana</a> as Gamora</li>
+        <li><a href="#">Dave Bautista</a> as Drax</li>
+        <li><a href="#">Vin Diesel</a> as Groot</li>
+        <li><a href="#">Bradley Cooper</a> as Rocket</li>
+      </ul>
+
+        <h2>Information</h2>
+          <table class="table table-bordered"> <!-- ooh He used a Table! -->
+            <tr>
+              <td><strong>Studio</strong></td>
+              <td>Marvel</td>
+            </tr>
+            <tr>
+              <td><strong>Run Time</strong></td>
+              <td>2 hr 1 min</td>
+            </tr>
+            <tr>
+              <td><strong>Format</strong></td>
+              <td>Widescreen</td>
+            </tr>
+          </table>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2"></div> 
+    <!-- Do you have to have even columns? Can you have blank/empty columns? -->
+
+    <div class="col-md-7">
+      <h2>Reviews</h2>
+      <h4 class="review-title">Brian says...</h4>
+      <h5 class="review-title">
+        Best Movie Ever! <i class="fa fa-star stars"></i> <i class="fa fa-star stars"></i> <i class="fa fa-star stars"> </i> <i class="fa fa-star-half-o stars"></i> <i class="fa fa-star-o stars"></i> 
+      </h5>
+      <p>This is not like any Marvel film we have seen. It's incredible. The visuals in this film are literally out of this world. The comedy is spot on and Chris Pratt is hilarious! Nothing like it. Ever. I'm positive I'm going to see this movie again.</p>
+
+      <h4 class="review-title">Jeff says...</h4>
+      <h5 class="review-title">
+        Just ok <i class="fa fa-star stars"></i> <i class="fa fa-star stars"></i> <i class="fa fa-star stars"> </i> <i class="fa fa-star-half-o stars"></i> <i class="fa fa-star-o stars"></i>  
+      </h5>
+      <p>Meh.</p>
+
+      <h4 class="review-title">Groot says...</h4>
+      <h5 class="review-title">
+        GROOT! <i class="fa fa-star stars"></i> <i class="fa fa-star stars"></i> <i class="fa fa-star stars"> </i> <i class="fa fa-star-half-o stars"></i> <i class="fa fa-star-o stars"></i>  
+      </h5>
+      <p>This movie has got me hooked on a feelin'!</p>
+    </div>
+  </div>
+</div>
+
+   <!--  <div class="row">
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+</div>
+<div class="row">
+  <div class="col-md-8">.col-md-8</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row">
+  <div class="col-md-6">.col-md-6</div>
+  <div class="col-md-6">.col-md-6</div>
+</div> -->
+  </body>
+</html>

@@ -1,0 +1,42 @@
+	span {color: purple;}
+
+	.experience {
+		border: solid;
+		margin: 20px;
+		padding-left: 30px;
+	}    
+
+
+    #highlight {font-family: 'verdana'}
+
+    body {
+        font-family: 'helvetica neue', arial, sans-serif;
+        font-weight: 300;
+        background: url(linedpaper.png) repeat;
+/*        background-color: rgb(12,45,6);*/
+        }
+
+    .special {color: blue; font-size: 24px;}
+
+    h2 {
+    		border: solid 18px red; 
+        	padding: 10px;
+        	/*margin: 10px 20px 30px 40px;*/
+        	margin-left: 20px;
+        	margin-top: 10px;
+        	margin-right: 20px;
+        	margin-bottom: 40px;
+        }
+
+    .pull-right {
+      	float: left;
+      	margin-right: 30px;
+      	padding: 30px;
+      	}  	
+
+    img {
+      	border-radius:200px;
+      	height: 400px;
+      	width: 400px;
+      }	
+
